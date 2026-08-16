@@ -17,8 +17,3 @@ echo 'src-git UA3F https://github.com/SunBK201/UA3F.git' >>feeds.conf.default
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 #git clone https://github.com/kenzok8/small.git package/small
 #git clone https://github.com/SunBK201/UA3F.git package/UA3F
-# 添加 radicale3 补充源
-sed -i '$a src-git radicale3mod https://github.com/danielfdickinson/luci.git;radicale3' feeds.conf.default
-
-./scripts/feeds update -a
-./scripts/feeds install -a

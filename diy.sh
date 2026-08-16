@@ -12,4 +12,4 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 
 # 添加额外的软件包，echo 方式和git clone 方式二选一即可
 echo 'src-git UA3F https://github.com/SunBK201/UA3F.git' >>feeds.conf.default
-#git clone https://github.com/SunBK201/UA3F.git package/UA3F
+git clone https://github.com/SunBK201/UA3F.git package/UA3F
